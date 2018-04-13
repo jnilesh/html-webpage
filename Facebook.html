@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+
+<head>
+<title>Facebook Book
+</title>
+<link rel="stylesheet" type="text/css" href="facebook.css">
+      
+</head>
+<body>
+<div id="header1">
+<h1><img src="t.png" hieght="50" width="60">     Welcome to Facebook
+</h1>
+<div id="login">
+<ul>
+    <li>
+        <form>
+            <label>ID or phone no. </label><br>
+            <input type="text" id="idph"><br>
+            <label><input type="checkbox">Keep password</label>
+
+        </form>
+    </li>
+    <li>
+        <form>
+            <label>Password</label><br>
+            <input type="password" id="inpass"><br>
+            <label><a href="https://www.facebook.com/recover/initiate?lwv=110">Forget Password</a></label>
+
+        </form>
+    </li>
+    <li ><br>
+        <input type="submit" id="ghus" value="Login" onclick="signin()" >
+    </li>
+</ul>
+</div></div><hr>
+<br>
+<div id="body1">
+<h2>Signup</h2>
+<h3>Create a free new Account</h3>
+<form id="signup">
+<label>Name:</label>
+<input type="text" name="username" id="fname"/><br>
+<label>lastname: </label> <input type="text" name="lastname" id="lname"/><br>
+<label>ID:  </label>    <input type="email" id="email" /><br>
+<label>Confirm ID:</label> <input type="email" name="id2" id="remail" /><br>
+<label>Password:</label>    <input type="password" name="password" id="upass"/><br>
+<label>Gender:</label>
+<label>Male:</label> <input type="radio" name="sex" value="male" id="male" />
+<label>Female:</label> <input type="radio" name="sex" value="female" id="female"/><br>
+<label>Date of Birth: </label><input type="date" value="date" id="dob" max="2000-1-1"/> <br><br>
+<div id="conditions"><a href="https://www.facebook.com/legal/terms">Why asking this Question?</a><br>
+<div>Clicking next means you agree the terms and conditions.</div>
+<a href="https://www.facebook.com/about/privacy">Terms And Condition</a><br><br>
+<input type="submit" value="submit" onclick="signup()"><br></div>
+</form>
+</div>
+
+
+</body>
+
+<script src="facebook.js"> </script>
+</html>

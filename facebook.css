@@ -1,0 +1,10 @@
+#header1  {color:white;font-family:arial;background-color:blue;padding: 1cm 2cm 3cm 2cm;}
+
+div>ul>li { float: left; padding: 10px;list-style-type: none}
+body {background-color:powderblue;margin-left: }
+#body1 {float: right;}
+input  {margin-bottom:5px;}
+#conditions  {margin-left:200px;}
+label {font-size:20px;margin-bottom: 5px; }
+#signup {margin-left: 50px;}
+h2 {text-align: left}
